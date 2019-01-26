@@ -1199,7 +1199,15 @@ const speakers: Speaker[] = [
   {
     objectID: 'varya_en',
     fullName: 'Varya Stepanova',
-    tags: ['CSS-in-JS', 'Style Guides', 'Visual Regression Testing'],
+    tags: [
+      'Design Systems',
+      'Style Guides',
+      'Visual Regression Testing',
+      'CSS-in-JS',
+      'React',
+      'Tooling',
+      'Open Source'
+    ],
     email: 'mail@varya.me',
     website: 'https://varya.me/',
     social: {
@@ -1209,8 +1217,8 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/varyastepanova/',
     },
     talks: [],
-    talkLanguages: [],
-    availableForHire: null,
+    talkLanguages: ['English', 'Russian'],
+    availableForHire: true,
     readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
